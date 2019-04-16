@@ -1,0 +1,62 @@
+@import './_minix';
+@import './common';
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .header {
+        width: 100%;
+        height: px2rem(44px);
+        background: #9ed6fa;
+    }
+    .main {
+        width: 100%;
+        flex: 1;
+        background: #f5f7f7;
+        padding: 0 px2rem(10px);
+        .inp {
+            width: 100%;
+            height: px2rem(44px);
+            background: #fff;
+            border-radius: px2rem(10px);
+            margin-top: px2rem(10px);
+            padding: 0 px2rem(10px);
+        }
+        .title {
+            display: flex;
+            justify-content: space-between;
+            .left {
+                width: px2rem(60px);
+                height: px2rem(44px);
+                line-height: px2rem(44px);
+            }
+            .center {
+                flex: 1;
+            }
+            .right {
+                width: px2rem(60px);
+                height: px2rem(44px);
+                line-height: px2rem(44px);
+            }
+        }
+        .btn {
+            width: 100%;
+            height: px2rem(44px);
+            background: #4994f4;
+            border-radius: px2rem(10px);
+            margin-top: px2rem(10px);
+            text-align: center;
+            line-height: px2rem(44px);
+        }
+        .tishi {
+            text-align: center;
+            line-height: px2rem(44px);
+        }
+    }
+    .footer {
+        width: 100%;
+        height: px2rem(50px);
+        background: skyblue;
+    }
+}
